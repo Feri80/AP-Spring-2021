@@ -27,10 +27,11 @@ public class Run
         System.out.println("\n" + lc.getAvg() + "\n");
 
 
+
         Department ce = new Department("CE", 10);
 
         ce.addLab(ap);
-        ce.addLab(lc);
+        ce.addLab();
 
         ce.print();
     }
