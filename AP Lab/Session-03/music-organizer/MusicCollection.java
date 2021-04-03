@@ -73,6 +73,7 @@ public class MusicCollection
             System.out.println("Track Address : " + t.address);
             System.out.println("Track Artist : " + t.artist);
             System.out.println("Track Release Date : " + t.releaseDate);
+            System.out.println();
         }
     }
     

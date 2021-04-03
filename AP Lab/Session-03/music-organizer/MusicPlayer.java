@@ -4,7 +4,7 @@
  * Provide basic playing of MP3 files via the javazoom library.
  * See http://www.javazoom.net/
  * 
- * @author David J. Barnes and Michael Kölling.
+ * @author David J. Barnes and Michael Kï¿½lling.
  * @version 2011.07.31
  */
 public class MusicPlayer
@@ -31,6 +31,9 @@ public class MusicPlayer
 		isPlaying = true;
     }
     
+    /**
+     * Stop playing the audio file
+     */
     public void stop()
     {
         System.out.println("player is stopped!");

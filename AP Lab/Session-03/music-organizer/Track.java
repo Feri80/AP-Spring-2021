@@ -1,3 +1,8 @@
+/**
+ * This Class contains a track details
+ * @author Farhad
+ * @version 1.0
+ */
 public class Track 
 {
     public String address;
