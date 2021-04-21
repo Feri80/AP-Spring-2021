@@ -12,6 +12,11 @@ public class Stack
     private int[] nodes;
 
     /**
+     * the INF value
+     */
+    private final int INF = 1000 * 1000 * 1000;
+
+    /**
      * current size of the stack
      */
     private int size;
@@ -36,6 +41,11 @@ public class Stack
      */
     public void push(int k)
     {
+        if(size == MAX_SIZE)
+        {
+            System.out.println("Overflow Occured.");
+            return;
+        }
         nodes[size++] = k; 
     }
 
@@ -44,6 +54,11 @@ public class Stack
      */
     public int pop()
     {
+        if(size == 0) 
+        {
+            System.out.println("Underflow Occured.");
+            return -1 * INF;
+        }
         return nodes[--size];
     }
 
@@ -52,6 +67,11 @@ public class Stack
      */
     public int peek()
     {
+        if(size == 0)
+        {
+            System.out.println("Stack Is Empty.");
+            return -1 * INF;
+        }
         return nodes[size - 1];
     }
 
