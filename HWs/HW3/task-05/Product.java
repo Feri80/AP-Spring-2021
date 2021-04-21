@@ -59,12 +59,30 @@ public class Product
     }
 
     /**
-     * return the price of product
+     * returns the price of product
      * @return price
      */
     public double getPrice()
     {
         return price;
+    }
+
+    /**
+     * returns the production date
+     * @return productionDate
+     */
+    public Date getProductionDate()
+    {
+        return productionDate;
+    }
+
+    /**
+     * returns the expiration date
+     * @return expirationDate
+     */
+    public Date getExpirationDate()
+    {
+        return expirationDate;
     }
 
     @Override

@@ -28,6 +28,13 @@ public class Inventory
      */
     public boolean addProduct(Product product, int stock)
     {
+        // this prevents to store object that production date is after expiration date
+        if(product.getProductionDate().after(product.getExpirationDate()))
+        {
+            System.out.println("Poduction Date Is After Expiration Date.");
+            return false;
+        }
+
         if(productionsList.get(product) == null)
         {
             if(stock < 0)
