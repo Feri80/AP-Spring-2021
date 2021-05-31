@@ -1,0 +1,4 @@
+hello : salam
+task : kar, vazifeh
+client : moshtari
+server : khedmatgozar, nokar
