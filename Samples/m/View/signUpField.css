@@ -1,0 +1,35 @@
+{
+    color1 : #2A2E37;
+    color2 : #673AB7;
+    color3 : #1976D2;
+}
+
+.text-field {
+    -fx-pref-width: 250;
+    -fx-pref-height: 30;
+    -fx-font-size: 11pt;
+    -jfx-focus-color: color2;
+    -jfx-unfocus-color: #676767;
+    -fx-text-inner-color: #acacac;
+}
+
+.password-field {
+    -fx-pref-width: 250;
+    -fx-pref-height: 30;
+    -fx-font-size: 11pt;
+    -jfx-focus-color: color2;
+    -jfx-unfocus-color: #676767;
+    -fx-text-inner-color: #acacac;
+    -fx-font-scale: Bold;
+}
+
+.list-view {
+    -fx-padding: 3px ;
+    -fx-background-color: darkred ;
+}
+
+.list-cell {
+    -fx-padding: 15px ;
+    -fx-background-color: transparent, -fx-background ;
+    -fx-background-insets: 0px, 2px ;
+}
