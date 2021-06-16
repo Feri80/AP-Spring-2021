@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="220.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="14.0" layoutY="68.0" mnemonicParsing="false" onAction="#acPress" prefHeight="25.0" prefWidth="141.0" text="AC" />
+      <Button layoutX="164.0" layoutY="68.0" mnemonicParsing="false" onAction="#powerPress" prefHeight="25.0" prefWidth="41.0" text="^" />
+      <Button layoutX="164.0" layoutY="99.0" mnemonicParsing="false" onAction="#divPress" prefHeight="25.0" prefWidth="41.0" text="/" />
+      <Button layoutX="114.0" layoutY="99.0" mnemonicParsing="false" onAction="#ninePress" prefHeight="25.0" prefWidth="41.0" text="9" />
+      <Button layoutX="64.0" layoutY="99.0" mnemonicParsing="false" onAction="#eightPress" prefHeight="25.0" prefWidth="41.0" text="8" />
+      <Button layoutX="14.0" layoutY="99.0" mnemonicParsing="false" onAction="#sevenPress" prefHeight="25.0" prefWidth="41.0" text="7" />
+      <Button layoutX="164.0" layoutY="130.0" mnemonicParsing="false" onAction="#multPress" prefHeight="25.0" prefWidth="41.0" text="*" />
+      <Button layoutX="114.0" layoutY="130.0" mnemonicParsing="false" onAction="#sixPress" prefHeight="25.0" prefWidth="41.0" text="6" />
+      <Button layoutX="64.0" layoutY="130.0" mnemonicParsing="false" onAction="#fivePress" prefHeight="25.0" prefWidth="41.0" text="5" />
+      <Button layoutX="14.0" layoutY="130.0" mnemonicParsing="false" onAction="#fourPress" prefHeight="25.0" prefWidth="41.0" text="4" />
+      <Button layoutX="164.0" layoutY="162.0" mnemonicParsing="false" onAction="#subPress" prefHeight="25.0" prefWidth="41.0" text="-" />
+      <Button layoutX="114.0" layoutY="162.0" mnemonicParsing="false" onAction="#threePress" prefHeight="25.0" prefWidth="41.0" text="3" />
+      <Button layoutX="64.0" layoutY="162.0" mnemonicParsing="false" onAction="#twoPress" prefHeight="25.0" prefWidth="41.0" text="2" />
+      <Button layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#onePress" prefHeight="25.0" prefWidth="41.0" text="1" />
+      <Button layoutX="164.0" layoutY="196.0" mnemonicParsing="false" onAction="#plusPress" prefHeight="25.0" prefWidth="41.0" text="+" />
+      <Button layoutX="114.0" layoutY="196.0" mnemonicParsing="false" onAction="#equalsPress" prefHeight="25.0" prefWidth="41.0" text="=" />
+      <Button layoutX="64.0" layoutY="196.0" mnemonicParsing="false" onAction="#dotPress" prefHeight="25.0" prefWidth="41.0" text="." />
+      <Button layoutX="14.0" layoutY="196.0" mnemonicParsing="false" onAction="#zeroPress" prefHeight="25.0" prefWidth="41.0" text="0" />
+      <Label fx:id="label" layoutX="13.0" layoutY="14.0" prefHeight="46.0" prefWidth="191.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

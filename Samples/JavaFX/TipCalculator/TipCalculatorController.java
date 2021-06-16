@@ -43,7 +43,7 @@ public class TipCalculatorController {
 		BigDecimal amount = new BigDecimal(amountTextField.getText());
 		BigDecimal tip = amount.multiply(tipPercentage);
 		BigDecimal total = amount.add(tip);
-
+      System.out.println("hello");
 		tipTextField.setText(currency.format(tip));
 		totalTextField.setText(currency.format(total));
       }
